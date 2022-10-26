@@ -12,3 +12,5 @@ Feature: accessing all the main modules of the app.
     Given User is on home page
     When User enters user and pass as salesmanager or storemanager
     And User clicks on login button
+    Then drivers should view 4 module names: Expected module names: Fleet, Customers, Activities, System
+
